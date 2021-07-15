@@ -43,6 +43,9 @@ div.main::after {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Beginning of Welcome Note */
+
 #welcome-note {
     margin-bottom: 30px;
     /* color: rgb(128,0,0); */
@@ -77,15 +80,16 @@ div.main::after {
 
 h3 {
     margin-bottom: 20px;
+    font-size: 17px;
 }
 
 form {
     width: 100%;
 }
 
-form :first-child {
+ form :first-child {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 form :first-child input {
@@ -93,10 +97,17 @@ form :first-child input {
     margin-bottom: 10px;
     color: rgb(128,0,0);
 }
-
-form :first-child label {
-    margin-bottom: 20px;
+form div div ul.birth-date {
+    display: flex;
+    flex-direction: column;
 }
+ul.birth-date li {
+    list-style: none;
+}
+
+/* form :first-child label {
+    margin-bottom: 20px;
+} */
 
 form div input::-webkit-inner-spin-button, 
 form div input::-webkit-outer-spin-button {
@@ -156,6 +167,9 @@ button:hover {
     margin-top: 20px;
     display: flex;
     margin-left: 25%;
+}
+.myResults h4 {
+    font-weight: bold;
 }
 
 #emptyDate {
