@@ -5,7 +5,7 @@
 ================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
 
-[![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Personal_Portfolio)](https://freestyletear.github.io/Personal_Portfolio/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Keith_James_Akan_Name_Generator)](https://freestyletear.github.io/Keith_James_Akan_Name_Generator/issues)
 
 ---
 
@@ -49,8 +49,7 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 ---
 ## Sources
 
-- 👨‍💻 Link to the live site - [here][website-3]
-<p align="left"> <img width="300" height="300" src="" alt="Image showcasing Keith James' Akan Name Generator site landing page" /> </p>
+- 👨‍💻<p align="left"> <img width="300" height="300" src="" alt="Image showcasing Keith James' Akan Name Generator site landing page" /> </p>
 
 
 ---
@@ -62,12 +61,9 @@ freestyletear@gmail.com
 
 ---
 ### License
->You can check out the full license- [here][link-4]
+>You can check out the full license- [here][link-1]
 
 This project is licensed under the terms of the **MIT** license.
 
 
-[website]: https://moringaschool.com/
-[website-2]: https://github.com/freestyletear?tab=repositories
-[website-3]: https://freestyletear.github.io/Personal_Portfolio/
-[link-4]: https://github.com/freestyletear/Personal_Portfolio/blob/master/LICENCE
+[link-1]: https://github.com/freestyletear/Keith_James_Akan_Name_Generator/blob/master/LICENCE
