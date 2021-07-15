@@ -29,7 +29,7 @@
         <h1 id="note-one">Welcome to Akan Name Generator</h1>
         <h2 id="note-two">Where you get Your Akan Name Easy and Fast!!!!!!</h2>
       </div>
-      <div class="birthdayGenderCollector">
+      <div class="birthday-Gender-Collector">
         <form action="">
           <!-- <div>
             <label for="date">Enter your Directory of Birth*</label>
@@ -58,16 +58,33 @@
           <p id="emptyDate"></p>
           <h3>Select Gender*</h3>
           <div id="radioInput">
+              <div>
+                  <ul>
+                      <li><input type="radio" name="gender" id="gender-female"></li>
+                      <li><label for="gender">Female</label></li>
+                  </ul>
+              </div>
+              <div>
+                  <ul>
+                      <li><input type="radio" name="gender" id="gender-male"></li>
+                      <li><label for="gender">Male</label></li>
+                  </ul>
+              </div>
+          </div>
+          <!-- <div id="radioInput">
             <input id="genderMale" type="radio" name="gender" />
             <label for="gender">Male</label>
-          <!-- </div> -->
-          <!-- <div id="radioInput"> -->
+          </div>
+          <div id="radioInput">
             <input id="genderFemale" type="radio" name="gender" />
             <label for="gender">Female</label>
-          </div>
+          </div> -->
           <p id="not-checked"></p>
-          <button type="submit" onclick="akanNameCalculator();">Submit</button>
+          <button type="submit" onclick="Calculator ()">Submit</button>
         </form>
+        <h4 id="alert"></h4>
+        <h4 id="alert2"></h4>
+
 
         <!-- <form id="Form" onsubmit="return false" >
 
