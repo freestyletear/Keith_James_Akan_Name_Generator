@@ -2,7 +2,7 @@
 
 <p align=center >This is my first portfolio website, 20th June 2021</p>
 
-================================================================================================
+==========================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
 
 [![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Keith_James_Akan_Name_Generator)](https://freestyletear.github.io/Keith_James_Akan_Name_Generator/issues)
@@ -10,7 +10,7 @@
 ---
 
 ## Description
-This is the creation of a landing page of a site known as Akan Name Generator whereby a user is guided through inputs such as there age and gender, after this and submitting, it's algorithim calculates and determains the user's Akan name.
+This is the creation of a landing page of a site known as Akan Name Generator whereby a user is guided through inputs such as there age and gender, after this and submitting, it's algorithm calculates and determines  the user's Akan name.
 
 ---
 ## Languages and Tools
