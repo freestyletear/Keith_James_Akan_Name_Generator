@@ -11,6 +11,34 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div id="welcome-note" class="container">
+        <h1 id="note-one">Welcome to Akan Name Generator</h1>
+        <h2 id="note-two">Where you get Your Akan Name Easy and Fast!!!!!!</h2>
+    </div>
+        <div class="birthdayGenderCollector">
+            <form action="">
+                <div>
+                    <label for="date">Enter your Directory of Birth</label>
+                    <input id="birthDate" type="date" placeholder="">
+                </div>
+                <p id="emptyDate"></p>
+                <h3>Select Gender</h3>
+                <div id="radioInput">
+                    <input id="genderMale" type="radio" name="gender">
+                    <label for="gender">Male</label>
+                </div>
+                <div id="radioInput">
+                    <input id="genderFemale" type="radio" name="gender">
+                    <label for="gender">Female</label>
+                </div>
+                <p id="not-checked"></p>
+                <button type="submit" onclick="akanNameCalculator();">Submit</button> 
+            </form>
+        </div>
+        <div class="myResults">
+            <h4>Results:</h4>
+            <p id="results"></p>
+        </div>
     <script src="./script.js"></script>
 </body>
 </html>

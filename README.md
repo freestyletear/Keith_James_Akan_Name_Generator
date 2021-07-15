@@ -2,7 +2,7 @@
 
 <p align=center >This is my first portfolio website, 20th June 2021</p>
 
-===========================================================================================================================
+================================================================================================
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=freestyletear" alt="freestyletear github profile trophy's" /></a> </p>
 
 [![GitHub Issues](https://img.shields.io/github/issues/freestyletear/Personal_Portfolio)](https://freestyletear.github.io/Personal_Portfolio/issues)
