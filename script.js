@@ -11,3 +11,20 @@ function akanNameCalculator() {
   } catch {
     document.getElementById("emptyDate").innerHTML = "*Date field required";
   }
+    //Day
+
+  let date = new Date(inputDate);
+  let birthDate = date.getDay();
+
+  // Store Akan names in Arrays
+
+  let maleAkan = [
+    "Kwasi",
+    "Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame",
+  ];
+  let femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
