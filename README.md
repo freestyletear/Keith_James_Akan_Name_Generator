@@ -63,7 +63,7 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 ## Sources
 
-- 👨‍💻<p align="left"> <img width="300" height="300" src="" alt="Image showcasing Keith James' Akan Name Generator site landing page" /> </p>
+- 👨‍💻<p align="left"> <img width="1200" height="700" src="https://raw.githubusercontent.com/freestyletear/Keith_James_Akan_Name_Generator/master/images/Screenshot-_landing_page.png" alt="Image showcasing Keith James' Akan Name Generator site landing page" /> </p>
 
 
 ---
