@@ -124,37 +124,30 @@ function getName() {
     if (akanDay === "Sunday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[0] + " and you were born on a Sunday."
-        // "Born on Sunday: Your Akan Name would be: " + akanMale[0];
       return true;
     } else if (akanDay === "Monday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[1] + " and you were born on a Monday."
-        // "Born on Monday: Your Akan Name would be: " + akanMale[1];
       return true;
     } else if (akanDay === "Tuesday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[2] + " and you were born on a Tuesday."
-        // "Born on Tuesday: Your Akan Name would be: " + akanMale[2];
       return true;
     } else if (akanDay === "Wednesday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[3] + " and you were born on a Wednesday."
-        // "Born on Wednesday: Your Akan Name would be: " + akanMale[3];
       return true;
     } else if (akanDay === "Thursday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[4] + " and you were born on a Thursday."
-        // "Born on Thursday: Your Akan Name would be: " + akanMale[4];
       return true;
     } else if (akanDay === "Friday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[5] + " and you were born on a Friday."
-        // "Born on Friday: Your Akan Name would be: " + akanMale[5];
       return true;
     } else {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[6] + " and you were born on a Saturday."
-        // "Born on Saturday: Your Akan Name would be: " + akanMale[6];
       return true;
     }
   }
@@ -162,37 +155,30 @@ function getName() {
     if (akanDay === "Sunday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[0] + " and you were born on a Sunday."
-        // "Born on Sunday: Your Akan Name would be: " + akanFemale[0];
       return true;
     } else if (akanDay === "Monday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[1] + " and you were born on a Monday."
-        // "Born on Monday: Your Akan Name would be: " + akanFemale[1];
       return true;
     } else if (akanDay === "Tuesday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[2] + " and you were born on a Tuesday."
-        // "Born on Tuesday: Your Akan Name would be: " + akanFemale[2];
       return true;
     } else if (akanDay === "Wednesday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[3] + " eand you wer born on a Wednesday."
-        // "Born on Wednesday: Your Akan Name would be: " + akanFemale[3];
       return true;
     } else if (akanDay === "Thursday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[4] + " and you were born on a Thursday."
-        // "Born on Thursday: Your Akan Name would be: " + akanFemale[4];
       return true;
     } else if (akanDay === "Friday") {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[5] + " and you were born on a Friday."
-        // "Born on Friday: Your Akan Name would be: " + akanFemale[5];
       return true;
     } else {
       document.getElementById("output").value =
       "Your Akan Name would be " + akanMale[6] + " and you were born on a Saturday."
-        // "Born on Saturday: Your Akan Name would be: " + akanFemale[6];
       return true;
     }
   }
@@ -205,232 +191,3 @@ function clearForm() {
 function clearResult() {
   document.getElementById("answer").reset();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var Calculator = function () {
-
-//   var date = parseInt(
-//     document.getElementsByClassName("birthday-Gender-Collector").elements.namedItem("date").value
-//   );
-//   var month = parseInt(
-//     document.getElementsByClassName("birthday-Gender-Collector").elements.namedItem("month").value
-//   );
-//   var year = parseInt(
-//     document.getElementsByClassName("birthday-Gender-Collector").elements.namedItem("year").value
-//   );
-//   var gender = document
-//     .getElementsByClassName("birthday-Gender-Collector")
-//     .elements.namedItem("gender").value;
-//   var dateOfBirth = new Date(year + "/" + month + "/" + date);
-//   var weekDay = dateOfBirth.getDay();
-
-//   if (month < 1 || month > 12 || (month == 2 && date > 29)) {
-//     return (document.getElementById("alert2").innerHTML =
-//       "Invalid  Month ,Please Try Again");
-//   } else if (date < 1 || date > 31) {
-//     return (document.getElementById("alert2").innerHTML =
-//       "Invalid Date ,Please Try Again");
-//   } else if (year === NaN || year < 1800 || year > 2022) {
-//     document.getElementById("alert2").innerHTML =
-//       "Invalid year please try Again";
-//   }
-//   var akanMale = [
-//     "Kwasi",
-//     "Kwadwo",
-//     "Kwabena",
-//     "Kwaku",
-//     "Yaw",
-//     "Kofi",
-//     "Kwame",
-//   ];
-
-//   var akanFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-//   var daysOfTheWeek = [
-//     "Sunday",
-//     "Monday",
-//     "Tuesday",
-//     "Wednesday",
-//     "Thursday",
-//     "Friday",
-//     "Saturday",
-//   ];
-
-//   if (weekDay === 0 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " + akanMale[weekDay] + ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 1 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanMale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 2 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanMale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 3 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanMale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 4 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanMale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 5 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanMale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 6 && gender === "male") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanMale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   }
-
-//   if (weekDay === 0 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 1 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 2 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 3 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 4 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 5 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   } else if (weekDay === 6 && gender === "female") {
-//     return (document.getElementById("results").innerHTML =
-//       "Your Akan name is : " +
-//       akanFemale[weekDay] +
-//       ("  .You were born on a : " + daysOfTheWeek[weekDay]));
-//   }
-//  else if (
-//      !document.getElementById("gender-Female").checked &&
-//      !document.getElementById("gender-Male").checked
-//    ) {
-//      document.getElementById("not-checked").innerHTML = "*Select your gender";
-//    }};
-
-// function akanNameCalculator() {
-//   event.preventDefault();
-
-//   // Form input
-
-//   let inputDate = document.getElementById("birthDate").value;
-//   let gender = document.getElementsByName("gender");
-
-//   try {
-//     if (inputDate == "") throw "Empty";
-//   } catch {
-//     document.getElementById("emptyDate").innerHTML = "*Date field required";
-//   }
-//   //Day
-
-//   let date = new Date(inputDate);
-//   let birthDate = date.getDay();
-
-//   // Store Akan names in Arrays
-
-//   let maleAkan = [
-//     "Kwasi",
-//     "Kwadwo",
-//     "Kwabena",
-//     "Kwaku",
-//     "Yaw",
-//     "Kofi",
-//     "Kwame",
-//   ];
-//   let femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-//   // Find Male Akan from BirthDate
-
-//   if (document.getElementById("genderMale").checked && inputDate != "") {
-//     document.getElementById("results").innerHTML =
-//       "Your Akan name is: " + "<strong>" + maleAkan[birthDate] + "</strong>";
-//   }
-
-//   // Find Female Akan from birthDate
-//   else if (document.getElementById("genderFemale").checked && inputDate != "") {
-//     document.getElementById("results").innerHTML =
-//       "According to your gender, your Akan name is: " +
-//       "<strong>" +
-//       femaleAkan[birthDate] +
-//       "</strong>";
-//   }
-//   // Warning
-//   else if (
-//     !document.getElementById("genderFemale").checked &&
-//     !document.getElementById("genderMale").checked
-//   ) {
-//     document.getElementById("not-checked").innerHTML = "*Select your gender";
-//   }
-//   // Background image
-
-//   setInterval(function () {
-//     var bg;
-//   });
-//}
-
-// Male;
-// Sunday: Kwasi;
-
-// Monday: Kwadwo;
-
-// Tuesday: Kwabena;
-
-// Wednesday: Kwaku;
-
-// Thursday: Yaw;
-
-// Friday: Kofi;
-
-// Saturday: Kwame;
-
-// Female;
-// Sunday: Akosua;
-
-// Monday: Adwoa;
-
-// Tuesday: Abenaa;
-
-// Wednesday: Akua;
-
-// Thursday: Yaa;
-
-// Friday: Afua;
-
-// Saturday: Ama;
