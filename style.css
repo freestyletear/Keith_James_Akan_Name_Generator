@@ -27,7 +27,6 @@ body {
 }
 div.main {
   width: 1520px;
-  /* height: 900px; */
 }
 div.main::after {
   content: "";
@@ -59,18 +58,6 @@ div.container h2#welcome-note {
 /* End of Welcome Note */
 
 /* Beginning of form */
-.card {
-    /* background-color: rgba(255,255,255,0.7) */
-    /* border: 2px solid purple;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px gray; */
-
-}
-/* .card-body {
-    border: 2px solid purple;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px gray;
-} */
 #form {
      border: 2px solid purple;
     border-radius: 4px;
@@ -82,11 +69,7 @@ form#form input {
     border: 1px solid #000000;
     margin-top: 5px;
     margin-bottom: 5px;
-    /* color: solid rgb(128,0,0); */
 }
-/* input {
-    color: rgb(128,0,0);
-} */
 input#yourNames {
     color: rgb(128,0,0);
 }
@@ -99,35 +82,6 @@ input#yearBorn {
 input#dayBorn {
     color: rgb(128,0,0);
 }
-/* #results {
-    color: rgb(128,0,0);
-    margin-left: 20px;
-    background-color: #ffffff;
-    border: 2px solid purple;
-    border-radius: 4px;
-    padding: 2px;
-}
-
-.myResults {
-    width: 50%;
-    padding: 40px;
-    background-color: rgba(128,0,0,0.3);
-    border: 2px solid purple;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px gray;
-    margin-top: 20px;
-    display: flex;
-} */
-/* div#results.card-title {
-      width: 50%;
-    padding: 40px;
-    background-color: rgba(128,0,0,0.3);
-    border: 2px solid purple;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px gray;
-    margin-top: 20px;
-    display: flex;
-} */
 div#two.card {
     padding: 40px;
     background-color: rgba(128,0,0,0.3);
@@ -143,15 +97,12 @@ div.card div#result h2 {
 }
 #output {
     color: rgb(128,0,0);
-    /* margin-left: 20px; */
-    /* background-color: #ffffff; */
     border: 2px solid purple;
     border-radius: 4px;
     padding: 2px;
 }
 div.form-group input#output {
     width: 100%;
-
 }
 button.btn {
     color: #ffffff;
@@ -167,175 +118,8 @@ p#one {
 p#two {
     margin: 30px 0 0 500px;
 }
-
-/* End of Form */
-
-
-
-
-
-
-
-
-
-/* html {
-  
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-  }
-
-body {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('./images/chuttersnap-JChRnikx0tM-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-div.main {
-  width: 1520px;
-  height: 900px;
-}
-div.main::after {
-  content: "";
-  background: url('./images/medium\ 1280*853\ .jpg');
-  opacity: 0.8;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; 
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-#welcome-note {
-    margin-bottom: 30px;
-    margin-left: 10%;
-
-#welcome-note h1#note-one {
-  
-}
-#welcome-note h2#note-two {
-}
-
-
-.birthday-Gender-Collector {
-    width: 50%;
-    padding: 40px;
-    background-color: rgba(255,255,255,0.7);
-    border: 2px solid purple;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px gray;
-    margin-left: 25%;
-}
-
-h3 {
-    margin-bottom: 20px;
-    font-size: 17px;
-    margin-left: 30px;
-}
-
-form {
-    width: 100%;
-}
-
- form :first-child {
-    display: flex;
-    flex-direction: row;
-}
-
-form :first-child input {
-    padding: 10px;
-    margin-bottom: 10px;
-    color: rgb(128,0,0);
-}
-form div div ul.birth-date {
-    display: flex;
-    flex-direction: column;
-}
-ul.birth-date li {
-    list-style: none;
-}
-
-ul li {
-    list-style: none;
-}
-
-#radioInput label {
-    margin-left: 10px;
-    margin-top: -5px;
-}
-
-button {
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 30px;
-    width: 30%;
-    background-color: rgb(128,0,0);
-    color: white;
-    border: none;
-    border-radius: 4px;
-}
-
-button:hover {
-    border: 1px solid purple;
-}
-
-#not-checked {
-    color: red;
-    margin-bottom: 10px;
-    background-color: rgb(231, 224, 224);
-    padding: 0.01px;
-    width: 19%;
-    
-}
-
-#results {
-    color: rgb(128,0,0);
-    margin-left: 20px;
-    background-color: #ffffff;
-    border: 2px solid purple;
-    border-radius: 4px;
-    padding: 2px;
-
-}
-
-.myResults {
-    width: 50%;
-    padding: 40px;
-    background-color: rgba(128,0,0,0.3);
-    border: 2px solid purple;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px gray;
-    margin-top: 20px;
-    display: flex;
-    margin-left: 25%;
-}
-.myResults h4 {
+p#two span {
     font-weight: bold;
 }
 
-#emptyDate {
-    color: red;
-    margin-bottom: 10px;
-    background-color: rgb(231, 224, 224);
-    padding: 0.01px;
-    width: 19%;
-} */
-
+/* End of Form */
