@@ -1,46 +1,392 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akan Name Generator | Keith James</title>
-    <link rel="shortcut icon" href="https://t3.ftcdn.net/jpg/02/57/38/38/240_F_257383892_EpQSY6FL9PNQ9qeledSDmTiphmPTr8mv.jpg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link
+      rel="shortcut icon"
+      href="https://t3.ftcdn.net/jpg/02/57/38/38/240_F_257383892_EpQSY6FL9PNQ9qeledSDmTiphmPTr8mv.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="jumbotron-fluid">
+
+      <!-- Beginning of Welcome Note -->
+      <div class="container">
+          <h1 class="text-light">Welcome to Akan Name Generator</h1>
+          <h2 id="welcome-note">Where you get Your Akan Name Easy and Fast!!!!!!</h2>
+      </div>
+      <!-- End of Welcome Note -->
+
+      <div class="main">
+      <div class="container-fluid">
+        <!-- <table class="table table-hover table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">DAY</th>
+              <th scope="col">MALE</th>
+              <th scope="col">FEMALE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Sunday</td>
+              <td>Kwasi</td>
+              <td>Akosua</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Monday</td>
+              <td>Kwadwo</td>
+              <td>Adwoa</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Tuesday</td>
+              <td>Kwabena</td>
+              <td>Abenaa</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Wednesday</td>
+              <td>Kwaku</td>
+              <td>Akua</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Thursday</td>
+              <td>Yaw</td>
+              <td>Yaa</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Friday</td>
+              <td>Kofi</td>
+              <td>Afua</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Saturday</td>
+              <td>Kwame</td>
+              <td>Ama</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>If you care to find out just put in the relevant details below:</p> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+           <!-- <div class="card" id="card"> -->
+             <!-- <div class="card-title">
+             </div> -->
+              <div class="card-body">
+
+                <!-- Beginning of Form -->
+                <form class="" id="form" action="index.html" method="post">
+                  <div class="form-group">
+                    <label for="">Enter Your Name</label>
+                    <input type="text" class="form-control" id="yourNames" onkeyup="allLetters(this)" name="your name">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Your Gender</label><br>
+                    <select class="custom-select" id="gender" name="Gender">
+                      <option value="1">Gender...</option>
+                      <option value="2">Male</option>
+                      <option value="3">Female</option>
+                     </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="">Enter Century You Were Born</label>
+                    <input type="number" class="form-control" id="centuryBorn" onkeyup="digits(this)" name="year" value="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Enter Year You Were Born</label>
+                    <input type="number" class="form-control" id="yearBorn" onkeyup="digits(this)" name="year" value="">
+                  </div>
+                  <div class="form-group">
+                    <label for=""> Enter Month You Were Born</label><br>
+                    <select class="custom-select" id="monthBorn" name="">
+                        <option value="0">Month...</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for=""> Enter Day You Were Born</label>
+                    <input type="number" class="form-control" id="dayBorn" name="">
+                  </div>
+                  <div class="form-group">
+                    <button type="button" onclick="giveName();selectGender(); giveCentury();giveYear();giveMonth();giveDay();validYear();validDay();getName();clearForm();" class="btn">Submit</button>
+                  </div>
+                </form>
+              </div>
+            <!-- </div> -->
+          </div>
+               <div class="col-md-6">
+                 <div id="two" class="card">
+                   <div class="card-title" id="results">
+                     <h2>Results</h2>
+                   </div>
+                   <div class="card-body" id="results-card">
+                     <form class="result" id="answer" action="index.html" method="post">
+                       <div class="form-group">
+                         <input type="textarea" name="output" id="output">
+                       </div><br>
+                       <div class="form-group">
+                         <button type="button" class="btn" onclick="clearResult()" name="button">Clear</button>
+                       </div>
+                     </form>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+      </div>
+      <!-- End of Form -->
+      <p>
+        Akan names are derived from Ghanian culture. Frequently in Ghana,
+        children are given their first name as a 'day name' which corresponds to
+        the day in the week they were born. The above output name might be your
+        Ghanian day name.
+      </p>
+      </div>
+    <!-- <script src="js/calc.js" type="text/javascript"></script> -->
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akan Name Generator | Keith James</title>
+    <link
+      rel="shortcut icon"
+      href="https://t3.ftcdn.net/jpg/02/57/38/38/240_F_257383892_EpQSY6FL9PNQ9qeledSDmTiphmPTr8mv.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="main">
-    <div id="welcome-note" class="container">
+      <div id="welcome-note" class="container">
         <h1 id="note-one">Welcome to Akan Name Generator</h1>
         <h2 id="note-two">Where you get Your Akan Name Easy and Fast!!!!!!</h2>
+      </div>
+      <div class="birthday-Gender-Collector">
+        <form action="">
+          <!-- <div>
+            <label for="date">Enter your Directory of Birth*</label>
+            <input id="birthDate" type="date" min="1" max="30" placeholder="" required/>
+          </div> -->
+          <!-- <div>
+              <div>
+                  <ul class="birth-date">
+                      <li><label for="day">Enter your Day of birth</label></li>
+                      <li><input type="number" name="day" id="date" min="1" max="31" required></li>
+                  </ul>
+              </div>
+              <div>
+                  <ul class="birth-date">
+                      <li><label for="month">Enter your month of birth</label></li>
+                      <li><input type="number" name="month" id="month" min="1" max="12" required></li>
+                  </ul>
+              </div>
+              <div>
+                  <ul class="birth-date">
+                      <li><label for="year">Enter your year of birth</label></li>
+                      <li><input type="number" name="year" id="year" min="1800" max="2022" required></li>
+                  </ul>
+              </div>
+          </div>
+          <p id="emptyDate"></p>
+          <h3>Select Gender*</h3>
+          <div id="radioInput">
+              <div>
+                  <ul>
+                      <li><input type="radio" name="gender" id="gender-female"></li>
+                      <li><label for="gender">Female</label></li>
+                  </ul>
+              </div>
+              <div>
+                  <ul>
+                      <li><input type="radio" name="gender" id="gender-male"></li>
+                      <li><label for="gender">Male</label></li>
+                  </ul>
+              </div>
+          </div>
+          <!-- <div id="radioInput">
+            <input id="genderMale" type="radio" name="gender" />
+            <label for="gender">Male</label>
+          </div>
+          <div id="radioInput">
+            <input id="genderFemale" type="radio" name="gender" />
+            <label for="gender">Female</label>
+          </div> -->
+          <!-- <p id="not-checked"></p>
+          <button type="submit" onclick="Calculator ()">Submit</button>
+        </form>
+        <h4 id="alert"></h4>
+        <h4 id="alert2"></h4>
+
+
+        <!-- <form id="Form" onsubmit="return false" >
+
+              Date<input type="number" name="day" id="date" min="1" max="30" required><br>
+              Month<input type="number" name="Month of birth" id="month" min="1" max="12" required><br>
+              Year<input type="number" name="Year of birth" id="year" min="1900" max="2020" required><br>
+              <input type="radio" name="gender" value="male">Male
+              <input type="radio" name="gender" value="female">Female 
+              <button class="primary btn" onclick="Calculator ()"> 
+              Submit
+              </button> 
+       </form> -->
+       </div>
+      <!-- <div class="myResults">
+        <h4>Results:</h4>
+        <p id="results"></p>
+      </div>
     </div>
-        <div class="birthdayGenderCollector">
-            <form action="">
-                <div>
-                    <label for="date">Enter your Directory of Birth</label>
-                    <input id="birthDate" type="date" placeholder="">
-                </div>
-                <p id="emptyDate"></p>
-                <h3>Select Gender</h3>
-                <div id="radioInput">
-                    <input id="genderMale" type="radio" name="gender">
-                    <label for="gender">Male</label>
-                </div>
-                <div id="radioInput">
-                    <input id="genderFemale" type="radio" name="gender">
-                    <label for="gender">Female</label>
-                </div>
-                <p id="not-checked"></p>
-                <button type="submit" onclick="akanNameCalculator();">Submit</button> 
-            </form>
-        </div>
-        <div class="myResults">
-            <h4>Results:</h4>
-            <p id="results"></p>
-        </div>
-        </div>
+    <div> -->
+
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Document</title>
+       <link rel="stylesheet" href="css/styles.css">
+
+       <h1>AKAN NAMES</h1>
+
+</head>
+<body>
+              <h2>Akan is the language of the people called Akans. The Akans are the largest
+                            ethnic group in Ghana. According to the 2000, national population census,
+                            49.1% of the Ghanaian population is Akans and about 44% of the population
+                            speak Akan as non-native speakers.</h2> 
+
+       <div>
+              <form id="Form" onsubmit="return false" >
+
+              Date<input type="number" name="day" id="date" min="1" max="30" required><br>
+              Month<input type="number" name="Month of birth" id="month" min="1" max="12" required><br>
+              Year<input type="number" name="Year of birth" id="year" min="1900" max="2020" required><br>
+              <input type="radio" name="gender" value="male">Male
+              <input type="radio" name="gender" value="female">Female 
+              <button class="primary btn" onclick="Calculator ()"> 
+              Submit
+              </button> 
+       </form>
+
+       </div>
+       <h4 id="alert"></h4>
+       <h4 id="alert2"></h4>
+
+       <script src="js/scripts.js"></script>
+
+</body>
+</html> -->
