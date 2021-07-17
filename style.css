@@ -129,132 +129,132 @@ p#two span {
 
 /* Beginnin of Media Queries */
 @media only screen and (max-width: 1400px) {
-  div.jumbotron-fluid {
+
+    div.jumbotron-fluid {
      background-color: rgb(128,0,0);
-  }
-  h1.text-light {
-      padding: 100px 0 0 20px;
-      text-shadow: 1px -1px 8px black;
-      font-size: 70px;
-  }
-  p#one {
-    margin: 20px 200px 0 220px;
-    text-align: center;
-  }
-  p#two span {
-      color: #ffffff;
-  }
+    }
+    h1.text-light {
+        padding: 100px 0 0 20px;
+        text-shadow: 1px -1px 8px black;
+        font-size: 70px;
+    }
+    p#one {
+        margin: 20px 200px 0 220px;
+        text-align: center;
+    }
+    p#two span {
+        color: #ffffff;
+    }
 }
 @media only screen and (max-width: 1200px) {
     div.jumbotron-fluid {
         background-color: pink;
     }
-  h1.text-light {
-      padding: 50px 0 0 50px;
-      font-size: 55px;
-  }
-h2#welcome-note {
-    position: absolute;
-    font-weight: 5px;
-    margin: -5px 0 -300px -100px;
-  }
+    h1.text-light {
+        padding: 50px 0 0 50px;
+        font-size: 55px;
+    }
+    h2#welcome-note {
+        position: absolute;
+        font-weight: 5px;
+        margin: -5px 0 -300px -100px;
+    }
     #form {
-      margin-top: 20px;
-  }
-  div#two.card {
-      margin-top: 35px;
-  }
-  p#one {
-    margin: 20px 300px 0 310px;
-    text-align: center;
-  }
-  p#two span {
-      color: #000000;
-  }
+        margin-top: 20px;
+    }
+    div#two.card {
+        margin-top: 35px;
+    }
+    p#one {
+        margin: 20px 300px 0 310px;
+        text-align: center;
+    }
+    p#two span {
+        color: #000000;
+    }
 }
 @media only screen and (max-width: 992px) {
     div.jumbotron-fluid {
         background-color: purple;
     }
-  h1.text-light {
-      padding-left: 10px;
-      font-size: 44px;
-  }
-  h2#welcome-note {
-    margin: -5px 0 0 -200px;
-    position: absolute;
-    font-weight: 5px;
-  }
-  #form {
-      margin-top: 20px;
-  }
-  div#two.card {
-      margin-top: 35px;
-  }
-  p#one {
-    margin: 20px 400px 0 430px;
-    text-align: center;
-  }
+    h1.text-light {
+        padding-left: 10px;
+        font-size: 44px;
+    }
+    h2#welcome-note {
+        margin: -5px 0 0 -200px;
+        position: absolute;
+        font-weight: 5px;
+    }
+    #form {
+        margin-top: 20px;
+    }
+    div#two.card {
+        margin-top: 35px;
+    }
+    p#one {
+        margin: 20px 400px 0 430px;
+        text-align: center;
+    }
 }
  @media only screen and (max-width: 768px) {
-  div.jumbotron-fluid {
+    div.jumbotron-fluid {
         background-color: grey;
     }
-  h1.text-light {
-      padding: 250px 0 0 -40px;
-      font-size: 30px;
-      font-weight: bolder;
-  }
-  h2#welcome-note {
-    margin: -5px 0 0 -280px;
-    position: absolute;
-    font-weight: 5px;
-  }
+    h1.text-light {
+        padding: 250px 0 0 -40px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    h2#welcome-note {
+        margin: -5px 0 0 -280px;
+        position: absolute;
+        font-weight: 5px;
+    }
    #form {
-      margin-top: 20px;
-  }
-  div#two.card {
-      margin: 0 16px 0 16px;
-  }
-  p#one {
-    margin: 20px 430px 0 430px;
-    text-align: center;
-    padding: 10px;
-
-  }
+        margin-top: 20px;
+    }
+    div#two.card {
+         margin: 0 16px 0 16px;
+        }
+    p#one {
+        margin: 20px 430px 0 430px;
+        text-align: center;
+        padding: 10px;
+    }
 }
 @media only screen and (max-width: 576px) {
-  div.jumbotron-fluid {
-     background-color: rgb(128,0,0);
-  }
-  h1.text-light {
-      padding: 250px 0 0 -40px;
-      font-size: 30px;
-      font-weight: bolder;
-  }
-  h2#welcome-note {
-    margin: -5px 0 0 -190px;
-    position: absolute;
-    font-weight: 5px;
-    font-size: 20px;
-  }
-   #form {
+    div.jumbotron-fluid {
+        background-color: rgb(128,0,0);
+    }
+    h1.text-light {
+        padding: 250px 0 0 -40px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    h2#welcome-note {
+        margin: -5px 0 0 -190px;
+        position: absolute;
+        font-weight: 5px;
+        font-size: 20px;
+    }
+    #form {
       margin-top: 20px;
-  }
-  div#two.card {
-      margin: 0 16px 0 16px;
-  }
-  p#one {
-    margin: 20px 515px 0 515px;
-    text-align: center;
-    padding: 10px;
+    }
+    div#two.card {
+         margin: 0 16px 0 16px;
+    }
+    p#one {
+        margin: 20px 515px 0 515px;
+        text-align: center;
+        padding: 10px;
 
-  }
-  p#two span {
-      color: #ffffff;
-  }
-  p#two {
+    }
+    p#two span {
+          color: #ffffff;
+    }
+    p#two {
       margin-left: 510px;
-  }
+    }
 }
 /* End of Media Queries */
