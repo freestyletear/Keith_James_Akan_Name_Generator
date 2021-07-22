@@ -49,7 +49,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## Setup/Installation Requirements
 * Clone this repo to your machine 
-* `git clone https://github.com/HWaruguru/Akan-Name-Generator.git`
+* `git clone https://github.com/freestyletear/Keith_James_Akan_Name_Generator.git`
 * `cd into akan_name_generator`
 * Navigate to index.html  and open it on your favorite browser
 Your browser must be JavaScript enabled for this to work
