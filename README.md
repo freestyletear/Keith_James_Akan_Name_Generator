@@ -15,13 +15,25 @@ This is the creation of a landing page of a site known as Akan Name Generator wh
 ---
 
 ## Behaviour Driven Development (BDD)
-| Behaviour                                         |                   Input                        | Expected Results                        |
-|---------------------------------------------------|------------------------------------------------|-----------------------------------------|
-|                                                   | Birth Date | Birth  Month | Birth Year| Gender |                                         |
-| A male user born on 01/01/2022                    | 01         | 01           | 2022      | Male   |                                         |
-| A female user born on 01/01/1990                 | 01         | 01           | 1990      | Female |                                         |
-
 ---
+***
+
+1. Displays Form For Entering Name, Date and Gender.
+   - INPUT: "User Name"
+   - INPUT: "User Gender"
+   - INPUT: "User Century of Birth Year"
+   - INPUT: "User Year of Birth"
+   - INPUT: "User Month of Birth"
+   - INPUT: "User Date of Birth"
+   - OUTPUT: "Displays User's original Name, Akan Name  and day of birth"
+2. Displays an Error Message if any of the INPUTS are left blank
+   - INPUT: ""
+   - OUTPUT: "Displays Error Message"
+3. Clears Form and Reset the Message on Click
+   - INPUT: "Click Reset Button"
+   - OUTPUT: "Clears and Resets the Form"
+   ---
+   ***
 
 ## Languages and Tools
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://getbootstrap.com/" target="_blank"> <img src="https://miro.medium.com/max/2000/1*9HanDsRU11ZMsgDGJwN96w.png" alt="bootstrap" width="40" height="40"/> </a> </p>
@@ -46,7 +58,8 @@ To fix a bug or enhance an existing module, follow these steps:
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
-
+---
+---
 ## Setup/Installation Requirements
 * Clone this repo to your machine 
 * `git clone https://github.com/freestyletear/Keith_James_Akan_Name_Generator.git`
@@ -54,6 +67,11 @@ To fix a bug or enhance an existing module, follow these steps:
 * Navigate to index.html  and open it on your favorite browser
 Your browser must be JavaScript enabled for this to work
 
+### Installation Medium
+1. Steady Network.
+2. Weblink
+3. Github account.
+---
 ---
 ### Bug / Feature Request
 
